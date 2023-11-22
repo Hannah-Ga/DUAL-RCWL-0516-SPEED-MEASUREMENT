@@ -4,4 +4,5 @@ This project includes the use of two **RCWL-0516** microwave-Radar modules, a **
 Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away from Each other, facing upwards. If a Object, for example a Hand passes in close Proximity to those Sensors (around 5cm above them), movement will be detected and the Sensors sends a HIGH Signal to the Board. This triggers a External Interrupt and Starts a Timer. When the second Sensor also detects movement in a timespan of 4 seconds after the first one, it triggers a Second Interrupt, stopping the Timer and Calculating the average speed of said Object. 
 
 ### RCWL-0516
-<img src="https://github.com/Hannah-Ga/GFS-RADAR/assets/96832979/2836dc6d-2d0e-42c5-8ec3-d2e084c49376" width 300 alt="rcwl-0516">
+<img src="https://raw.githubusercontent.com/Hannah-Ga/GFS-RADAR/main/assets/96832979/2836dc6d-2d0e-42c5-8ec3-d2e084c49376" width="300" alt="rcwl-0516">
+
