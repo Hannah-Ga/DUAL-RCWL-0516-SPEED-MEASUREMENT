@@ -23,5 +23,14 @@ Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away f
 * C-TM: I haven't used this thus i can only provide the Information given by Datasheets. It appears that if a capacitor will be connected, the length of the HIGH signal can be changed. By default it sends a HIGH signal for ~2 seconds after movement stopped.
 
 * R-CDS: I also haven't used this one, since it is for a LDR, which lets us to disable the Module during the Day.
+
+
+## How does the RCWL-0516 Work?
+
+From my own experience and from research i can tell, the RCWL-0516 works by using the Doppler effect.
+
+* For a more precise explanation of this phenomenon this [Wikipedia](https://en.wikipedia.org/wiki/Doppler_effect) article about the Doppler effect provides a detailed explanation.
+
+With this knowledge, i was able to tackle down the issue of Both Modules triggering at the same time, thus the Solution with the Resistor. It is noteworthy that some shielding may help too, but the Materials i had didn't help with this issue. 
   
 
