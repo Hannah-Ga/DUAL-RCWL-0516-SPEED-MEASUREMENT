@@ -27,9 +27,9 @@ Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away f
 
 ## How does the RCWL-0516 Work?
 
-From my own experience and from research i can tell, the RCWL-0516 works by using the Doppler effect.
+From my own experience and from research i can tell, the RCWL-0516 works by using the Doppler effect, sending out a microwave radar signal and "listening" to it. Moving objects disturb the duration of the signal, creating a higher or lower "pitched" version, which the RCWL-0516 is able to detect.
 
-* For a more precise explanation of this phenomenon this [Wikipedia](https://en.wikipedia.org/wiki/Doppler_effect) article about the Doppler effect provides a detailed explanation.
+* For a more precise explanation of this phenomenon this [Wikipedia](https://en.wikipedia.org/wiki/Doppler_effect#Radar) article about the Doppler effect provides a detailed explanation.
 
 With this knowledge, i was able to tackle down the issue of Both Modules triggering at the same time, thus the Solution with the Resistor. It is noteworthy that some shielding may help too, but the Materials i had didn't help with this issue. 
   
