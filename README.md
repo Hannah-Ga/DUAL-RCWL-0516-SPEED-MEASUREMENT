@@ -1,7 +1,5 @@
 # GFS-RADAR
 This project includes the use of two **RCWL-0516** microwave-Radar modules, a **BLE HC-10**, [lcd name] and a **STM32 Nucleo L152RE** Microcontroller [But many different Microcontroller can be used]. 
-## Project
-Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away from Each other, facing upwards. If a Object, for example a Hand passes in close Proximity to those Sensors (around 5cm above them), movement will be detected and the Sensors sends a digital HIGH Signal from the OUT pin. This triggers a External Interrupt and Starts a Timer. When the second Sensor also detects movement in a timespan of 4 seconds after the first one, it triggers a Second Interrupt, stopping the Timer and Calculating the average speed of said Object. 
 
 ## RCWL-0516
 <img src="https://github.com/Hannah-Ga/GFS-RADAR/blob/main/images/rcwl-0516.png" width="300" alt="rcwl-0516">
@@ -39,7 +37,7 @@ With this knowledge, i was able to tackle down the issue of Both Modules trigger
 
 Now, after i have given neccessary Information about the Module this project was about, its time to dive deeper into the project.
 
-For Anyone, who was interested in the solutions of those two modules interfering and/or general information about those and don't seem to care about the rest, then everything from here on may be not of interest for you.
+For anyone, who was interested in the solutions of those two modules interfering and/or general information about those and don't seem to care about the rest, then everything from here on may be not of interest for you.
 
 #### Parts used
 
@@ -51,7 +49,9 @@ For Anyone, who was interested in the solutions of those two modules interfering
 
 * [PCF8574](https://www.instructables.com/Using-PCF8574-Backpacks-With-LCDs-and-Arduino/): LCD Display
 
+#### The Idea
 
+Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away from Each other, facing upwards. If a Object, for example a Hand passes in close Proximity to those Sensors (around 5cm above them), movement will be detected and the Sensors sends a digital HIGH Signal from the OUT pin. This triggers a External Interrupt and Starts a Timer. When the second Sensor also detects movement in a timespan of 4 seconds after the first one, it triggers a Second Interrupt, stopping the Timer and Calculating the average speed of said Object. 
 
 
   
