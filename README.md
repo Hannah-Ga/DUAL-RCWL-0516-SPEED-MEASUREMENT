@@ -57,6 +57,8 @@ Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away f
 
 ```attachInterrupt(digitalPinToInterrupt(R1), ISR_EXT1_IR, RISING);``` was used to attach the RCWL-0516. the tag RISING is neccessary, in order for the Interrupt to start immeadetly when movement was detected. Due to the Module sending a HIGH signal for atleast 2 seconds, the chances of a accidental second trigger are eliminated
 
-```radarTimer.setOverflow(1000);``` and ```radarTimee.setPrescaleFactor(3200);``` were used
+```radarTimer.setOverflow(1000);``` and ```radarTimee.setPrescaleFactor(3200);``` were used to setup the timer. 
+
+Both ISR, which are triggered by either of those radar modules 
   
 
