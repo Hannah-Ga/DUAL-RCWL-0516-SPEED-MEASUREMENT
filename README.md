@@ -59,6 +59,11 @@ Two **RCWL-0516** Modules were placed on wodden Pillars aproximately 50cm away f
 
 ```radarTimer.setOverflow(1000);``` and ```radarTimee.setPrescaleFactor(3200);``` were used to setup the timer. 
 
-Both ISR, which are triggered by either of those radar modules 
+Both Interrupts, which are triggered by one of those radar modules rise the variable ```trigger``` by one. if this value reaches 1, the ```radarTimer``` will be started if it stays at 1 for too long, a reset function will be triggered to set it to 0, disabled the ```radarTimer``` and resets it. If Both Modules get triggered within the time before the reset would be triggered, a function to calculate the Time will be executed, dividing a value (50) by the time which passed between the activation of the first and the second module. Outputting a speed value in meters/second. 
+
+```speed = 50 / timePassed;```
+```speed = speed * 10;```
+
+
   
 
