@@ -45,7 +45,7 @@ For anyone, who was interested in the solutions of those two modules interfering
 
 * 2x [RCWL-0516](https://lastminuteengineers.com/rcwl0516-microwave-radar-motion-sensor-arduino-tutorial/): Radar Module
 
-* [HC-10 BLE](https://people.ece.cornell.edu/land/courses/ece4760/PIC32/uart/HM10/DSD%20TECH%20HM-10%20datasheet.pdf): Bluetooth Low Energy Module
+* [HM-10 BLE](https://people.ece.cornell.edu/land/courses/ece4760/PIC32/uart/HM10/DSD%20TECH%20HM-10%20datasheet.pdf): Bluetooth Low Energy Module
 
 * [PCF8574](https://www.instructables.com/Using-PCF8574-Backpacks-With-LCDs-and-Arduino/): LCD Display
 
