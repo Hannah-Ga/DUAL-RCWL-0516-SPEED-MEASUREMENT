@@ -1,4 +1,4 @@
-# GFS-RADAR
+# DUAL RCWL-0516 PROJECT (GFS)
 This project includes the use of two **RCWL-0516** microwave-Radar modules, a **HM-10 BLE** module, a **PCF8574** LCD Display and a **STM32 Nucleo L152RE** Microcontroller. (A variety of different controller can be used).
 
 ## RCWL-0516
