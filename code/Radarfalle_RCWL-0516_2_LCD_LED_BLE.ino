@@ -60,7 +60,6 @@ void loop() {
   }
   delay(500);
   if(timePassed == 3000){
-    delay(3000); //if second sensor wont activate in time, RESET!
     Serial.println("reset");
     I2C_LCD(cM);
     radarTimer.pause();
